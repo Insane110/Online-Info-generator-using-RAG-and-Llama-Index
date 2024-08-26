@@ -5,7 +5,9 @@ This RAG implementation is built using the LlamaIndex framework, which was chose
 
 ### Web Scraping:
 **DuckDuckGo**: Used as the search engine for gathering web pages.
+
 **OpenCV and Tesseract**: Utilized for extracting text from images found on web pages.
+
 **Table Extraction**: Extracted data from tables on web pages, converting them into documents for further processing.
 
 ### Document Processing:
@@ -14,6 +16,7 @@ Removed empty documents, retaining only those with meaningful content.
 
 ### Language Model:
 **Hugging Face**: Integrated the Meta-Llama-3.1-8B-Instruct model as the primary LLM.
+
 **Embedding Model**: Used sentence-transformers/all-MiniLM-L6-v2 for generating embeddings.
 
 ### Vector Database:
@@ -24,5 +27,7 @@ Built an interactive bot interface using Gradio.
 
 ### Features
 **Efficient Data Retrieval**: Leverages FAISS for fast and accurate retrieval of relevant documents.
+
 **Versatile Text Extraction**: Supports text scraping from various sources, including images and tables.
+
 **Scalable Framework**: Built on top of LlamaIndex, allowing for easy integration and scaling.
